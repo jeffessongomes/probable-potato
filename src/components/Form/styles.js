@@ -252,7 +252,7 @@ export const Verify = styled.div`
           margin: 0 21px;
 
           @media only screen and (max-width: 576px){
-            margin: 0 5px;
+            margin: 0 1px;
           }
           border-radius: 10px;
 
