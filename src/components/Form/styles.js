@@ -250,6 +250,10 @@ export const Verify = styled.div`
           font-family: Montserrat;
           border: 1px solid #707070;
           margin: 0 21px;
+
+          @media only screen and (max-width: 576px){
+            margin: 0 5px;
+          }
           border-radius: 10px;
 
           width: 53px !important;
