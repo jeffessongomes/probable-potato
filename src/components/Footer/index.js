@@ -10,14 +10,14 @@ const Footer = () => (
   <Foot>
     <Container>
       <Row>
-        <Col lg={10} md={9} className="left--text">
+        <Col lg={10} md={9} sm={8} className="left--text">
           <img src={Logo} alt="Logo da PredPay" />
           <p>
             PredPay &copy; 2021. <br />
             Todos os direitos reservados. CNPJ: nº 00.000.000/0000-00
           </p>
         </Col>
-        <Col lg={2} md={3} className="logozinha">
+        <Col lg={2} md={3} sm={2} className="logozinha">
           <ul>
             <li>
               <a

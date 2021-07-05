@@ -50,7 +50,7 @@ const FormComponent = () => {
     <FormContainer>
       <Container fluid>
         <Row>
-          <Col lg={5} sm={12}>
+          <Col lg={5} sm={12} className="mt-5">
             <div className="img__form--cell">
               <h4 className="d-block d-lg-none a_mimir">Quero ser PredPay</h4>
 
@@ -62,8 +62,8 @@ const FormComponent = () => {
 
             </div>
           </Col>
-          <Col lg={5} sm={12}>
-            <Form>
+          <Col lg={5} sm={12} className="mb-5">
+            <Form className="mt-lg-5">
               {isTitle &&
                 <h4 className="d-none d-lg-block ">Quero ser PredPay</h4>
               }

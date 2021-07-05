@@ -4,19 +4,26 @@ import background from '../../assets/img/bg.png';
 import bgTablet from '../../assets/img/bg-tablet.png';
 
 export const FormContainer = styled.div`
-  padding: 100px 200px 80px 200px;
+  padding: 100px 405px 80px 405px;
   margin-top: 80px;
 
-
-  @media only screen and (max-width: 768px) {
-    padding: 80px 40px;
+  @media only screen and (max-width: 1400px) {
+    padding: 0 0 0 128px;
   }
 
-  @media only screen and (max-width: 576px){
-    padding: 80px 10px;
+  @media only screen and (max-width: 768px) {
+    padding: 0 80px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    padding: 0 37px;
   }
 
   .cell--Form{
+
+    @media only screen and (max-width: 768px){
+      height: 440px;
+    }
     @media only screen and (max-width: 576px){
       height: 260px;
     }
@@ -36,38 +43,38 @@ export const FormContainer = styled.div`
   }
 
   .a_mimir{
-    color: #707070;
+    color: #454545;
     font-size: 14px !important;
     text-align: center;
     margin-top: 42px;
     line-height: 24px;
     font-family: Montserrat;
-    padding: 0 20px;
+    padding: 0;
     margin-bottom: 60px;
   }
 
   @media only screen and (max-width: 768px){
     .a_mimir{
-      color: #707070;
+      color: #454545;
       font-size: 35px !important;
       text-align: center;
       margin-top: 30px;
       line-height: 24px;
       font-family: Montserrat;
-      padding: 0 20px;
+      padding: 0;
       margin-bottom: 60px;
     }
   }
 
   @media only screen and (max-width: 576px){
     .a_mimir{
-      color: #707070;
+      color: #454545;
       font-size: 28px !important;
       text-align: center;
       margin-top: 30px;
       line-height: 24px;
       font-family: Montserrat;
-      padding: 0 20px;
+      padding: 0;
       margin-bottom: 60px;
     }
   }
@@ -84,22 +91,26 @@ export const FormContainer = styled.div`
   justify-content: center;
 
   h4 {
-    color: #707070;
-    font-size: 42px !important;
+    color: #454545;
+    font-size: 35px;
     padding: 60px 0 0 0;
     font-family: Montserrat;
   }
 
   background: #FFFFFF;
+  padding: 0 45px;
 
-  @media only screen and (min-width: 768px){
-    min-height: 770px;
+  @media only screen and (max-width: 1400px) {
+    padding: 0 50px;
   }
 
-  padding: 0 78px;
+  @media only screen and (max-width: 768px) {
+    min-height: 770px;
+    padding: 0 80px;
+  }
 
-  @media only screen and (max-width: 576px){
-    padding: 0 40px;
+  @media only screen and (max-width: 576px) {
+    padding: 0 37px;
   }
 
   .p-lorem{

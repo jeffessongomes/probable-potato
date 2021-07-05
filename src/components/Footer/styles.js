@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
 export const Foot = styled.footer`
+  padding: 0 405px;
 
-  @media only screen and (max-width: 768px) {
-    padding: 0 40px;
+  @media only screen and (max-width: 1400px) {
+    padding: 0 0 0 128px;
   }
 
-  @media only screen and (max-width: 575px) {
-    padding: 0 20px;
+  @media only screen and (max-width: 768px) {
+    padding: 0 80px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    padding: 0 37px;
   }
 
   .logozinha{
@@ -38,9 +43,9 @@ export const Foot = styled.footer`
 
     p{
       font-size: 11;
+      line-height: 22px;
       font-family: Montserrat;
       font-weight: medium;
-      line-height: 14px;
       color: #454545;
       margin: 0;
 
