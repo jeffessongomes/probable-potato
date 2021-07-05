@@ -260,15 +260,19 @@ export const Verify = styled.div`
         input{
           font-family: Montserrat;
           border: 1px solid #707070;
-          margin: 0 21px;
+          margin: 0 8px;
 
-          @media only screen and (max-width: 576px){
-            margin: 0 1px;
-          }
           border-radius: 10px;
 
           width: 53px !important;
           height: 70px !important;
+
+          @media only screen and (max-width: 576px){
+            margin: 0 1px;
+            height: 50px !important;
+            width: 40px !important;
+          }
+
 
           caret-color: #441F74;
 
