@@ -10,7 +10,7 @@ const Footer = () => (
   <Foot>
     <Container>
       <Row>
-        <Col xl={11} lg={9} md={9} sm={8} className="left--text">
+        <Col xl={9} lg={8} md={9} sm={8} className="left--text">
           <img src={Logo} alt="Logo da PredPay" />
           <p>
             PredPay &copy; 2021. <br />
